@@ -1,6 +1,6 @@
 <?php
 
-//first solution I thought of, using arrays - simple and working but the longer the strings are the slower will the arrays be sorted
+//first solution I thought of, using arrays - simple and working but the longer the strings are the slower the arrays will be sorted
 function isAnagram (String $firstWord, String $secondWord) 
 {
 	$firstWordArray = str_split($firstWord);
