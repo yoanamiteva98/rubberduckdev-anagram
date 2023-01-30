@@ -1,6 +1,6 @@
 <?php
 
-//first solution I thought of, using arrays - simple and working but it might take longer for arrays to sort if strings are longer
+//first solution I thought of, using arrays - simple and working but the longer the strings are the slower will the arrays be sorted
 function isAnagram (String $firstWord, String $secondWord) 
 {
 	$firstWordArray = str_split($firstWord);
@@ -16,7 +16,7 @@ function isAnagram (String $firstWord, String $secondWord)
 	}	
 }
 
-//second solution using the passed strings, used an additional array like a hashmap, should work faster and not take extra memory
+//second solution using strings, used an additional array like a hashmap, I believe it should work faster and not take extra memory
 function isAnagramSecondV (String $firstWord, String $secondWord) 
 {
 	$countFirstWordLetters = [];
