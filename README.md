@@ -16,5 +16,6 @@ Using PHP, JavaScript or any language of your choice, implement a function
 anagram of the first, and false if not.
 
 is_anagram(‘hello’, ‘hlleo’) == true
+
 is_anagram(‘test’, ‘tast’) == false
 
